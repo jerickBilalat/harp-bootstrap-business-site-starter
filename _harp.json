@@ -1,0 +1,7 @@
+{
+  "globals": {
+    "siteTitle": "Bootstrap Blueprints",
+    "name"  : "John Doe",
+    "uri": "http://example.com"
+  }
+}
