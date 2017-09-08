@@ -1,0 +1,21 @@
+Work Logs:
+9/7/17
+- footer
+- page-banner
+- home-about
+- home-services
+- page-carousel
+
+- about-page-banner
+- page-body
+- modal
+9/8/17
+- contact page
+
+Docs:
+
+css/components : these are components that are either custom variables and customized bootstrap components
+ - _carousel.less
+ - _typography.less
+ - _variables.less
+ - colors.less

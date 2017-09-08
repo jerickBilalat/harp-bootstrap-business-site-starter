@@ -1,0 +1,16 @@
+
+
+Documentation
+
+css/components : these are components that are either custom variables and customized bootstrap components
+
+theme.less : main css file where we import components and the website's css code
+
+partail : components or sections that are implemnted on multiple pages
+
+_data.json : local data
+
+_harp.json : global data
+
+_layout.ejs : layout for all pages
+

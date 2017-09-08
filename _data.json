@@ -1,5 +1,14 @@
 {
     "index":{ 
         "pageTitle": "Home"
+    },
+    "locations":{
+        "pageTitle": "Locations"
+    },
+    "about":{
+        "pageTitle": "About"
+    },
+    "contact":{
+        "pageTitle": "Contact"
     }
 }
