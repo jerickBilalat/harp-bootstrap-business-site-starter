@@ -1,49 +1,51 @@
 
-
-<div class="row">
-    <div class="col-lg-12">
-        <h2 class="page-header">White Bear, MN</h2>
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-4">
-        <h3>White Bear Lake, MN</h3>
-        <p>1256 Street Road</p>
-        <p><a href="#" data-toggle="modal" data-target="#map-modal">View Map</a></p>
-    </div>
-    <div class="col-lg-4">
-        <h3>Roseville, MN</h3>
-        <p>1256 Street Road</p>
-        <p><a href="#" data-toggle="modal" data-target="#map-modal">View Map</a></p>
-    </div>
-    <div class="col-lg-4">
-        <h3>Maple Grove, MN</h3>
-        <p>1256 Street Road</p>
-        <p><a href="#" data-toggle="modal" data-target="#map-modal">View Map</a></p>
-    </div>
-</div>
-
-
-<!--white bear map modal-->
-<div class="modal fade" id="map-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"
-                    aria-label="Close">
-                    <span aria-hidden="true">&times</span>
-                </button>
-                <h4 class="modal-title">White Bear, MN</h4>
-            </div>
-            <div class="modal-body">
-                <div class="text-center">
-                    <p><img src="http://lorempixel.com/400/267" width="400" height="267"></p>
-                    <h2>White Bear Lake, MN</h2>
-                </div>
+<div class="container-fluid">
+    <div class="page-banner">
+        <div class="row">
+            <div class="col-md-12">
+                <!--google map-->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11287.934582689513!2d-93.15092625!3d44.98464334999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3877ab635d424fe1!2sComo+Park+Golf+Course!5e0!3m2!1sen!2sus!4v1505139880784" width="1170" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen></iframe>
             </div>
         </div>
     </div>
 </div>
 
+<div class="container">
+    <div class="page-body">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="list-group">
+                    <a class="list-group-item" href="#"><i aria-hidden="true"></i>White Beark Lake, MN</a>
+                    <a class="list-group-item" href="#"><i aria-hidden="true"></i>Maplewood, MN</a>
+                    <a class="list-group-item" href="#"><i aria-hidden="true"></i>Woodbury, MN</a>
+                </div>
+            </div>
+            <div class="col-lg-8 col-lg-offset-1">
+                <h3>White Bear Lake,</h3>
+                <h4>Pellentesque habitant morbi tristique senectus et netus et  malesuada fames ac turpis egestas. Vestibulum tortor quam,  
+                     feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu  libero sit amet quam egestas semper. Aenean ultricies 
+                     mi vitae  est. Mauris placerat eleifend leo.
+                </h4>
+                <p>Pellentesque habitant morbi tristique senectus et 
+                netus et  malesuada fames ac turpis egestas. Vestibulum
+                tortor quam,  feugiat vitae, ultricies eget, tempor sit 
+                amet, ante. Donec eu  libero sit amet quam egestas semper. 
+                Aenean ultricies mi vitae
+                t  malesuada fames ac turpis egestas. Vestibulum
+                tortor quam,  feugiat vitae, ultricies eget, tempor sit 
+                amet, ante. Donec eu  libero sit amet quam egestas semper. 
+                Aenean ultricies mi vitae
+                </p>
+                <h3>Gallery</h3>
+                <p>Pellentesque habitant morbi tristique senectus et 
+                netus et  malesuada fames ac turpis egestas. Vestibulum
+                tortor quam,  feugiat vitae, ultricies eget, tempor sit 
+                amet, ante. Donec eu  libero sit amet quam egestas semper. 
+                Aenean ultricies mi vitae</p>
+             </div>
+        </div>
+    </div>
+</div>
 
-<!--add modal for the rest of the locations-->
+<!--contact form-->
+<%- partial("partial/_contact-form") %>

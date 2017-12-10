@@ -1,0 +1,101 @@
+@import "components/_variables.scss"; // global varibles
+
+
+
+// Table of Contents
+// 1. BASE
+// 2. LAYOUT
+// 3. MODULES
+// 4. STATES
+// 5. THEMES
+
+/****************** 
+01. BASE 
+*********************/ 
+html {
+  font-size: 10px;
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+	html {
+    font-size: 10px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+	html {
+    font-size: 16px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+	html {
+    font-size: 20px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+	html {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+/******************************************** 
+02. LAYOUT 
+Styles specific to your layout or website 
+********************************************/
+.main-header {
+	
+	.nav-link {
+		text-align: center;
+		padding-top: 10px;
+	}
+	
+	@media (min-width: 768px) {
+		.nav-item:last-child > .nav-link {
+			padding-top: 3px;
+		}
+	}
+	
+	@media (min-width: 992px) {
+		.nav-item {
+			padding-left: 50px;
+		}
+	}	
+}
+
+
+
+
+
+
+/************************ 
+03. MODULES or COMPONENTS
+**************************/
+@import "components/_typography.scss";
+@import "components/_carousel.scss";
+@import "components/_contact-form.scss";
+
+
+
+
+/***************************************** 
+04. STATES 
+ex. $import "components/_alerts.scss";
+*****************************************/ 
+
+
+
+
+/***************************************** 
+05. THEME 
+Styles specific to your layout or website
+*****************************************/ 
+

@@ -1,7 +1,5 @@
 {
   "globals": {
-    "siteTitle": "Golden Pond",
-    "name"  : "John Doe",
-    "uri": "http://example.com"
+    "siteTitle": "Golden Pond"
   }
 }

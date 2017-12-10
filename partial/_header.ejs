@@ -1,25 +1,47 @@
 
-
-<div class="header">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3">
-                <h1>Golden Pond</h1>
-            </div>
-            <div class="col-lg-9 right">
-                <div class="main-nav pull-right">
-                    <ul class="list-inline">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="divider">/</li>
-                        <li><a href="locations.html">Locations</a></li>
-                        <li class="divider">/</li>
-                        <li><a href="about.html">About</a></li>
-                        <li class="divider">/</li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><button type="button" class="btn btn-default" data-toggle="modal" data-target="#reservation-modal">Reservations</button></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+<!-- screen size indicator located top left of screen -->
+<div style="color:red; z-index: 9999;" class="sticky-top">
+  <h4 class="d-none d-xl-block">scree size: xl</h4>
+  <h4 class="d-none d-lg-block d-xl-none">scree size: lg</h4>
+  <h4 class="d-none d-md-block d-lg-none">scree size: md</h4>
+  <h4 class="d-none d-sm-block d-md-none">scree size: sm</h4>
+  <h4 class="d-sm-none">xs</h4>
 </div>
+
+<!-- HEADER -->
+<header class="main-header  sticky-top container-fluid">
+	<nav class="navbar navbar-expand-md navbar-light bg-light">
+		<!-- 	brand	 -->
+		<a class="navbar-brand" href="#">
+			<img src="http://via.placeholder.com/186x116"/>
+		</a>
+		<!-- 	toggler	 -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!-- 	navigation	 -->
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto" role="navigation">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Locations</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<button class="btn btn-default">Contact Us</button>
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+	</nav>
+</header>

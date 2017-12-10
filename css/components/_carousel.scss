@@ -1,0 +1,14 @@
+
+.carousel-caption {
+	left: 10%;
+	right: 45%;
+	top: 10%;
+	text-align: left;
+	padding: 0;
+	
+	// fix font-size at small screen
+	
+	@media (min-width: 576px) { 
+		top: 25%;
+	}
+}

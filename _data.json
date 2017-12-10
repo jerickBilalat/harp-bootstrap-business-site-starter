@@ -1,14 +1,14 @@
 {
-    "index":{ 
-        "pageTitle": "Home"
-    },
-    "locations":{
-        "pageTitle": "Locations"
-    },
-    "about":{
-        "pageTitle": "About"
-    },
-    "contact":{
-        "pageTitle": "Contact"
-    }
+  "index": {
+    "pageTitle": "Home"
+  },
+  "about": {
+    "pageTitle": "About"
+  },
+  "locations": {
+    "pageTitle": "Locations"
+  },
+  "services": {
+    "pageTitle": "Services"
+  }
 }
